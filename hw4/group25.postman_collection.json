@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "140b8cb2-3174-42b8-a662-4a83eb3c1604",
+		"name": "group25",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hw_postman1",
+			"item": [
+				{
+					"name": "EP_1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/get_method?name=Nikita&age=26",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"get_method"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/user_info_3?name=Nikita&age=26&salary=60000",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "salary",
+									"value": "60000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/object_info_1?name=Nikita&age=26&weight=87",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_1"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "weight",
+									"value": "87"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/object_info_2?name=Nikita&age=26&salary=60000",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_2"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "salary",
+									"value": "60000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/object_info_3?name=Nikita&age=26&salary=60000",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "salary",
+									"value": "60000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/object_info_4?name=Nikita&age=26&salary=60000",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_4"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "salary",
+									"value": "60000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP_7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "162.55.220.72:5005/user_info_2?name=Nikita&age=26&salary=60000",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_2"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nikita"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								},
+								{
+									"key": "salary",
+									"value": "60000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
