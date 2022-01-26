@@ -1,0 +1,206 @@
+JSON - https://github.com/Averanc3/JSON
+ 4. Создать внешний репозиторий c названием JSON.
+- https://github.com/Averanc3/JSON/commit/20bc3df2d05f12248dbdcae3cc48e21c625fccb7
+
+ 5. Клонировать репозиторий JSON на локальный компьютер. 
+- git clone git@github.com:Averanc3/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”. 
+- touch new.json
+
+ 7. Добавить файл под гит. 
+- git add new.json
+
+ 8. Закоммитить файл. 
+- git commit -m "Добавил файл json"
+
+ 9. Отправить файл на внешний GitHub репозиторий. 
+- git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. 
+- vim new.json, i,
+{"name":"Fadeenko Nikita Vladimirovich",
+ "age":26,
+ "pets":0,
+ "salary":60000}, 
+  esc, :wq
+
+ 11. Отправить изменения на внешний репозиторий. 
+- git commit -ma "Добавил изменения в файл json", 
+  git push
+
+ 12. Создать файл preferences.json
+- touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+- vim preferences.json, i,
+{"fav_movie":"The Shawshank redemption",
+ "fav_meal":"Tai_Shrimps",
+ "fav_season":"Summer",
+ "wish_to_visit_country":"Denmark"},
+  esc, :wq
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
+- touch skills.json,
+  vim skills.json, i,
+{"Теория":["Тестирование", "Тестовая документация", "Веб"],
+ "Инструменты": ["Postman", "Dev Tools", "Charles", "Fiddler", "Xcode", "Android Studio", "Jmeter"],
+ "Языки":["Python", "SQL"]},
+  esc, :wq
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+- git add .,
+  git commit -m "Добавил preferences и skills json",
+  git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+- https://github.com/Averanc3/JSON/commit/9aa2d37f5d74b19de88ded44f4a9211b5eaa2e56
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+- https://github.com/Averanc3/JSON/commit/e38e54c8b0b0a745d46d797c4ddb8ede8d9e8075
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+- git fetch,
+  git pull
+
+XML - https://github.com/Averanc3/XML
+ 21. Создать внешний репозиторий c названием XML.
+- https://github.com/Averanc3/XML/commit/0792d295b5d1b0c67c7985a81ac0e60097d25295
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+- git clone git@github.com:Averanc3/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+- touch new.xml
+
+ 24. Добавить файл под гит.
+- git add .
+
+ 25. Закоммитить файл.
+- git commit -m "Добавил файл xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+- git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+- vim new.xml, i,
+<?xml version="1.0" encoding="utf-8"?>
+<name>Fadeenko Nikita Vladimirovich</name>
+<age>26</age> 
+<pets>0</pets>
+<salary>60000</salary>,
+ esc, :wq
+
+ 28. Отправить изменения на внешний репозиторий.
+- git commit -ma "Добавил изменения в файл xml",
+  git push
+
+ 29. Создать файл preferences.xml
+- touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+- vim preferences.xml, i,
+<?xml version="1.0" encoding="utf-8"?>
+<fav_movie>The Shawshank redemption</fav_movie> 
+<fav_meal>Tai_Shrimps</fav_meal>
+<fav_season>Summer</fav_season>
+<wish_to_visit_country>Denmark</wish_to_visit_country>,
+ esc, :wq
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+- touch skills.xml,
+  vim skills.json, i,
+<?xml version="1.0" encoding="utf-8"?>
+<Теория>Тестирование, Тестовая документация, Веб</Теория>
+<Инструменты>Postman, Dev Tools, Charles, Fiddler, Xcode, Android Studio, Jmeter</Инструменты>
+<Языки>Python, SQL</Языки>,
+ esc, :wq
+
+ 32. Сделать коммит в одну строку.
+- git add .
+  git commit -m "Добавил preferences и skills xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+- git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+- https://github.com/Averanc3/XML/commit/bf45bafebf2f1e189b87b1bf199ac6e8d77af89d
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+- https://github.com/Averanc3/XML/commit/7f49c2c9ed85f7bed6e8b4121c23ef5bdb2937a7
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+- git fetch,
+  git pull
+
+TXT - https://github.com/Averanc3/TXT
+ 1. Создать внешний репозиторий c названием TXT. 
+- https://github.com/Averanc3/TXT/commit/086c34a5ff3c63654d98a82bd578b05e04e8885d
+
+ 2. Клонировать репозиторий TXT на локальный компьютер. 
+- git clone git@github.com:Averanc3/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+- touch new.txt
+
+ 4. Добавить файл под гит.
+- add new.txt
+
+ 5. Закоммитить файл.
+- git commit -m "Добавил файл new.txt"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+- git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+- vim new.txt, i,
+  Name - Fadeenko Nikita Vladimirovich
+  Age - 26 
+  Pets - 0 
+  Salary - 60000,
+  esc, :wq
+
+ 8. Отправить изменения на внешний репозиторий.
+- git commit -ma "Добавил изменения в new.txt", git push
+
+ 9. Создать файл preferences.txt
+- touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+- vim preferences.txt, i,
+  fav_movie - The Shawshank redemption
+  fav_meal - Tai_Shrimps
+  fav_season - Summer
+  wish_to_visit_country - Denmark,
+  esc, :wq
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+- touch skills.txt,
+  vim skills.txt, i,
+  Теория - Тестирование, Тестовая документация, Веб
+  Инструменты - Postman, Dev Tools, Charles, Fiddler, Xcode, Android Studio, Jmeter
+  Языки - Python, SQL,
+  esc, :wq
+  
+ 12. Сделать коммит в одну строку.
+- git add .,
+  git commit -m "Добавил файлы preferences и skills"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+- git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+- https://github.com/Averanc3/TXT/commit/fe8881545e0aeca47a998704cd8d346628ef2736
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+- https://github.com/Averanc3/TXT/commit/45d2ee58d34b56cee84e07a8a15f3864bd14ce83
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+- git fetch,
+  git pull
